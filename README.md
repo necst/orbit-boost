@@ -28,7 +28,7 @@ The archive is structured as follows:
 |  └─ Vivado/Package/  # Package to generate .bit and .hwh files
 ```
  
-## Instructions to build and test project
+## Instructions to build and test project (WiP ⚠️)
 
 ### Step 1 - Clone the repository
 Open a terminal, then clone the repository by running the following command

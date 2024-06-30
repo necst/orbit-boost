@@ -12,20 +12,20 @@ This project will focus on profiling the application, designing an accelerator f
 | **University name**      | Politecnico di Milano |
 | **Participant (email**)  | Marco Laurenzi (marco.laurenzi@mail.polimi.it) |
 | **Participant (email**)  | Alessandro Aldo Marina (alessandroaldo.marina@mail.polimi.it) |
-| **Tutor name**      | Davide Conficconi |
+| **Supervisor name**      | Davide Conficconi |
 | **Supervisor email**     | davide.conficconi@polimi.it |
-| **Supervisor name**      | Marco Domenico Santambrogio |
-| **Supervisor email**     | marco.santambrogio@polimi.it |
 | **Board used**           | Kria KD240 Drives Starter Kit |
 | **Software version**     | 2024.1 |
 
 ## Description of archive
 The archive is structured as follows:
 ```    
-├─ hardware/           # Host application and dataset
+├─ hardware/           # Host application
 |  └─ native/          # C host code
-|  └─ python/          # python host code
+|  └─ python/          # python host code + testbench
 └─ IP/                 # everything needed to generate the .bit and .hwh files
+|  └─ Vitis HLS/       # C++ code to generate the package
+|  └─ Vivado/Package/  # Package to generate .bit and .hwh files
 ```
  
 ## Instructions to build and test project

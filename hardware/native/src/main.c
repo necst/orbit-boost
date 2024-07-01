@@ -73,19 +73,6 @@ int main(int argc, char** argv) {
 
     volatile uint32_t *ptr = base_ptr;
 
-    //print physical addresses
-    printf("X_pa = %p\n", X_pa);
-    printf("D_pa = %p\n", D_pa);
-    printf("Xout_pa = %p\n", Xout_pa);
-
-
-    printf("HEREEEE111111 \n");
-    
-    //print2
-    printf("HEREEEE222222 \n");
-
-
-
     
     uint64_t start_time = perf_counter_ns();
 

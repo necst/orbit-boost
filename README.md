@@ -28,7 +28,7 @@ The archive is structured as follows:
 |  └─ Vivado/Package/  # Package to generate .bit and .hwh files
 ```
  
-## Instructions to build and test project (WiP ⚠️)
+## Instructions to build and test project
 
 ### Step 1 - Clone the repository
 Open a terminal, then clone the repository by running the following command
@@ -50,11 +50,24 @@ Then open VIvado 2024.1, import the IP code present in the previously generated 
 The bitstream files generated are already available in the /hardware/python/bitstream/ folder
 
 ### Step 3 - Connect to the Kria KD240
-Carefully connect the Kria KD240 and after setting it up, be 
-```shell
-cd /hardware/python
+#### Preliminary work
+Carefully connect the Kria KD240 and proceed with the setup following this link:
+https://www.amd.com/en/products/system-on-modules/kria/k24/kd240-drives-starter-kit/getting-started/getting-started.html
+
+Install Pynq on the Board:
+https://github.com/Xilinx/PYNQ
+
+#### Connection to Pynq
+While you are in the same network of the Board, search on a browser:
+<Kria_IP>:9090
+A Jupiter Notebook should appear.
+Now you are ready to upload all the files, be sure to follow the same folder arrangment provided below:
+```    
+├─ bitstream/                            # Upload here the .bit and .hwh files named as doublerate.<bit | hwh>    
+├─ Host.ipynb                            # A notebook that acts as the Python host, managing communication and control for the FPGA
+├─ execution_time_plotter.ipynb          # A Python notebook designed to plot and compare the execution times of software (non- accelerated) versus hardware (accelerated) implementations
+├─ demo_hardware_division.ipynb          # A Python notebook that demonstrates the division function running on the Kria KD240 FPGA
+└─ ldl_dsolve_hardware.py                #  A Python function that runs on the hardware, ready to be called for accelerated computation
 ```
-
-
-Run
+To test the bitstream execute the Host.ipynb file entirely
 

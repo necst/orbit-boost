@@ -42,8 +42,11 @@ int main(int argc, char** argv) {
     double *X_pa = getBufferPhysicalAddress(device, X_handle);
     double *D_pa = getBufferPhysicalAddress(device, D_handle);
     double *Xout_pa = getBufferPhysicalAddress(device, Xout_handle);
-    
 
+    printf("X_pa = %p\n", X_pa);
+    printf("D_pa = %p\n", D_pa);
+    printf("Xout_pa = %p\n", Xout_pa);
+    
 
     // Map buffers to user space
     double *X_ptr = xclMapBuffer(device, X_handle);
@@ -75,18 +78,24 @@ int main(int argc, char** argv) {
     printf("D_pa = %p\n", D_pa);
     printf("Xout_pa = %p\n", Xout_pa);
 
-    //xcl buffer content print
-    for (int i = 0; i < N; i++) {
-        printf("X_ptr[%d] = %f\n", i, X_ptr[i]);
-        printf("X_ptr[%d] = %f\n", i, X_ptr[i]);
-        printf("Xout_ptr[%d] = %f\n", i, X_ptr[i]);
-    }
+
+    printf("HEREEEE111111 \n");
     
+    //print2
+    printf("HEREEEE222222 \n");
 
 
+
+    
     uint64_t start_time = perf_counter_ns();
 
+    
+    
     *((volatile uint32_t*) (ptr + XLDL_DSOLVE_CONTROL_ADDR_AP_CTRL)) = 0x1;
+
+    printf("print3 \n");
+
+    
 
     while(!orbitboost_done_or_idle(base_ptr))
     {

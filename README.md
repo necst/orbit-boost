@@ -55,7 +55,7 @@ Carefully connect the Kria KD240 and proceed with the setup following this link:
 https://www.amd.com/en/products/system-on-modules/kria/k24/kd240-drives-starter-kit/getting-started/getting-started.html
 
 Install Pynq on the Board:
-https://github.com/Xilinx/PYNQ
+https://github.com/Xilinx/Kria-PYNQ
 
 #### Connection to Pynq
 While you are in the same network of the Board, search on a browser:

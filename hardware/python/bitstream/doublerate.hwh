@@ -1,22 +1,22 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Fri Jun  7 18:57:09 2024" VIVADOVERSION="2023.2">
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Sun Jun 23 19:54:10 2024" VIVADOVERSION="2024.1">
 
-  <SYSTEMINFO ARCH="zynquplus" BOARD="xilinx.com:kd240_som:part0:1.0" DEVICE="xck24" NAME="design_1" PACKAGE="ubva530" SPEEDGRADE="-2LV"/>
+  <SYSTEMINFO ARCH="zynquplus" BOARD="xilinx.com:kd240_som:part0:1.0" DEVICE="xck24" NAME="perfectdesignnew" PACKAGE="ubva530" SPEEDGRADE="-2LV"/>
 
   <EXTERNALPORTS/>
 
   <EXTERNALINTERFACES/>
 
   <MODULES>
-    <MODULE BD="design_1_axi_smc_2" BDTYPE="SBD" COREREVISION="21" DRIVERMODE="CORE" FULLNAME="/axi_smc" HWVERSION="1.0" INSTANCE="axi_smc" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="smartconnect" SIM_BD="design_1_axi_smc_2" VLNV="xilinx.com:ip:smartconnect:1.0">
+    <MODULE BD="perfectdesignnew_axi_smc_0" BDTYPE="SBD" COREREVISION="23" DRIVERMODE="CORE" FULLNAME="/axi_smc" HWVERSION="1.0" INSTANCE="axi_smc" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="smartconnect" SIM_BD="perfectdesignnew_axi_smc_0" VLNV="xilinx.com:ip:smartconnect:1.0">
       <DOCUMENTS>
         <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=smartconnect;v=v1_0;d=pg247-smartconnect.pdf"/>
       </DOCUMENTS>
       <PARAMETERS>
         <PARAMETER NAME="HAS_RESET" VALUE="1"/>
-        <PARAMETER NAME="TLM_COMPONENT_NAME" VALUE="design_1_axi_smc_2"/>
+        <PARAMETER NAME="TLM_COMPONENT_NAME" VALUE="perfectdesignnew_axi_smc_0"/>
         <PARAMETER NAME="ADVANCED_PROPERTIES" VALUE="0"/>
-        <PARAMETER NAME="Component_Name" VALUE="design_1_axi_smc_2"/>
+        <PARAMETER NAME="Component_Name" VALUE="perfectdesignnew_axi_smc_0"/>
         <PARAMETER NAME="HAS_ARESETN" VALUE="1"/>
         <PARAMETER NAME="NUM_CLKS" VALUE="1"/>
         <PARAMETER NAME="NUM_MI" VALUE="1"/>
@@ -184,7 +184,7 @@
             <CONNECTION INSTANCE="ldl_dsolve_0" PORT="m_axi_gmem0_RVALID"/>
           </CONNECTIONS>
         </PORT>
-        <PORT CLKFREQUENCY="99999001" DIR="I" NAME="aclk" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
+        <PORT CLKFREQUENCY="199998001" DIR="I" NAME="aclk" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
           <CONNECTIONS>
             <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="pl_clk0"/>
           </CONNECTIONS>
@@ -201,9 +201,9 @@
           <PARAMETER NAME="ARUSER_WIDTH" VALUE="0"/>
           <PARAMETER NAME="AWUSER_WIDTH" VALUE="0"/>
           <PARAMETER NAME="BUSER_WIDTH" VALUE="0"/>
-          <PARAMETER NAME="CLK_DOMAIN" VALUE="design_1_zynq_ultra_ps_e_0_0_pl_clk0"/>
+          <PARAMETER NAME="CLK_DOMAIN" VALUE="perfectdesignnew_zynq_ultra_ps_e_0_0_pl_clk0"/>
           <PARAMETER NAME="DATA_WIDTH" VALUE="128"/>
-          <PARAMETER NAME="FREQ_HZ" VALUE="99999001"/>
+          <PARAMETER NAME="FREQ_HZ" VALUE="199998001"/>
           <PARAMETER NAME="HAS_BRESP" VALUE="1"/>
           <PARAMETER NAME="HAS_BURST" VALUE="0"/>
           <PARAMETER NAME="HAS_CACHE" VALUE="1"/>
@@ -253,9 +253,9 @@
           <PARAMETER NAME="ARUSER_WIDTH" VALUE="0"/>
           <PARAMETER NAME="AWUSER_WIDTH" VALUE="0"/>
           <PARAMETER NAME="BUSER_WIDTH" VALUE="0"/>
-          <PARAMETER NAME="CLK_DOMAIN" VALUE="design_1_zynq_ultra_ps_e_0_0_pl_clk0"/>
+          <PARAMETER NAME="CLK_DOMAIN" VALUE="perfectdesignnew_zynq_ultra_ps_e_0_0_pl_clk0"/>
           <PARAMETER NAME="DATA_WIDTH" VALUE="128"/>
-          <PARAMETER NAME="FREQ_HZ" VALUE="99999001"/>
+          <PARAMETER NAME="FREQ_HZ" VALUE="199998001"/>
           <PARAMETER NAME="HAS_BRESP" VALUE="0"/>
           <PARAMETER NAME="HAS_BURST" VALUE="1"/>
           <PARAMETER NAME="HAS_CACHE" VALUE="1"/>
@@ -300,15 +300,15 @@
         </BUSINTERFACE>
       </BUSINTERFACES>
     </MODULE>
-    <MODULE BD="design_1_axi_smc_1_0" BDTYPE="SBD" COREREVISION="21" DRIVERMODE="CORE" FULLNAME="/axi_smc_1" HWVERSION="1.0" INSTANCE="axi_smc_1" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="smartconnect" SIM_BD="design_1_axi_smc_1_0" VLNV="xilinx.com:ip:smartconnect:1.0">
+    <MODULE BD="perfectdesignnew_axi_smc_1_0" BDTYPE="SBD" COREREVISION="23" DRIVERMODE="CORE" FULLNAME="/axi_smc_1" HWVERSION="1.0" INSTANCE="axi_smc_1" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="smartconnect" SIM_BD="perfectdesignnew_axi_smc_1_0" VLNV="xilinx.com:ip:smartconnect:1.0">
       <DOCUMENTS>
         <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=smartconnect;v=v1_0;d=pg247-smartconnect.pdf"/>
       </DOCUMENTS>
       <PARAMETERS>
         <PARAMETER NAME="HAS_RESET" VALUE="1"/>
-        <PARAMETER NAME="TLM_COMPONENT_NAME" VALUE="design_1_axi_smc_1_0"/>
+        <PARAMETER NAME="TLM_COMPONENT_NAME" VALUE="perfectdesignnew_axi_smc_1_0"/>
         <PARAMETER NAME="ADVANCED_PROPERTIES" VALUE="0"/>
-        <PARAMETER NAME="Component_Name" VALUE="design_1_axi_smc_1_0"/>
+        <PARAMETER NAME="Component_Name" VALUE="perfectdesignnew_axi_smc_1_0"/>
         <PARAMETER NAME="HAS_ARESETN" VALUE="1"/>
         <PARAMETER NAME="NUM_CLKS" VALUE="1"/>
         <PARAMETER NAME="NUM_MI" VALUE="1"/>
@@ -476,7 +476,7 @@
             <CONNECTION INSTANCE="ldl_dsolve_0" PORT="m_axi_gmem1_RVALID"/>
           </CONNECTIONS>
         </PORT>
-        <PORT CLKFREQUENCY="99999001" DIR="I" NAME="aclk" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
+        <PORT CLKFREQUENCY="199998001" DIR="I" NAME="aclk" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
           <CONNECTIONS>
             <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="pl_clk0"/>
           </CONNECTIONS>
@@ -493,9 +493,9 @@
           <PARAMETER NAME="ARUSER_WIDTH" VALUE="0"/>
           <PARAMETER NAME="AWUSER_WIDTH" VALUE="0"/>
           <PARAMETER NAME="BUSER_WIDTH" VALUE="0"/>
-          <PARAMETER NAME="CLK_DOMAIN" VALUE="design_1_zynq_ultra_ps_e_0_0_pl_clk0"/>
+          <PARAMETER NAME="CLK_DOMAIN" VALUE="perfectdesignnew_zynq_ultra_ps_e_0_0_pl_clk0"/>
           <PARAMETER NAME="DATA_WIDTH" VALUE="128"/>
-          <PARAMETER NAME="FREQ_HZ" VALUE="99999001"/>
+          <PARAMETER NAME="FREQ_HZ" VALUE="199998001"/>
           <PARAMETER NAME="HAS_BRESP" VALUE="1"/>
           <PARAMETER NAME="HAS_BURST" VALUE="0"/>
           <PARAMETER NAME="HAS_CACHE" VALUE="1"/>
@@ -545,9 +545,9 @@
           <PARAMETER NAME="ARUSER_WIDTH" VALUE="0"/>
           <PARAMETER NAME="AWUSER_WIDTH" VALUE="0"/>
           <PARAMETER NAME="BUSER_WIDTH" VALUE="0"/>
-          <PARAMETER NAME="CLK_DOMAIN" VALUE="design_1_zynq_ultra_ps_e_0_0_pl_clk0"/>
+          <PARAMETER NAME="CLK_DOMAIN" VALUE="perfectdesignnew_zynq_ultra_ps_e_0_0_pl_clk0"/>
           <PARAMETER NAME="DATA_WIDTH" VALUE="128"/>
-          <PARAMETER NAME="FREQ_HZ" VALUE="99999001"/>
+          <PARAMETER NAME="FREQ_HZ" VALUE="199998001"/>
           <PARAMETER NAME="HAS_BRESP" VALUE="0"/>
           <PARAMETER NAME="HAS_BURST" VALUE="1"/>
           <PARAMETER NAME="HAS_CACHE" VALUE="1"/>
@@ -592,15 +592,15 @@
         </BUSINTERFACE>
       </BUSINTERFACES>
     </MODULE>
-    <MODULE BD="design_1_axi_smc_2_0" BDTYPE="SBD" COREREVISION="21" DRIVERMODE="CORE" FULLNAME="/axi_smc_2" HWVERSION="1.0" INSTANCE="axi_smc_2" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="smartconnect" SIM_BD="design_1_axi_smc_2_0" VLNV="xilinx.com:ip:smartconnect:1.0">
+    <MODULE BD="perfectdesignnew_axi_smc_2_0" BDTYPE="SBD" COREREVISION="23" DRIVERMODE="CORE" FULLNAME="/axi_smc_2" HWVERSION="1.0" INSTANCE="axi_smc_2" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="smartconnect" SIM_BD="perfectdesignnew_axi_smc_2_0" VLNV="xilinx.com:ip:smartconnect:1.0">
       <DOCUMENTS>
         <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=smartconnect;v=v1_0;d=pg247-smartconnect.pdf"/>
       </DOCUMENTS>
       <PARAMETERS>
         <PARAMETER NAME="HAS_RESET" VALUE="1"/>
-        <PARAMETER NAME="TLM_COMPONENT_NAME" VALUE="design_1_axi_smc_2_0"/>
+        <PARAMETER NAME="TLM_COMPONENT_NAME" VALUE="perfectdesignnew_axi_smc_2_0"/>
         <PARAMETER NAME="ADVANCED_PROPERTIES" VALUE="0"/>
-        <PARAMETER NAME="Component_Name" VALUE="design_1_axi_smc_2_0"/>
+        <PARAMETER NAME="Component_Name" VALUE="perfectdesignnew_axi_smc_2_0"/>
         <PARAMETER NAME="HAS_ARESETN" VALUE="1"/>
         <PARAMETER NAME="NUM_CLKS" VALUE="1"/>
         <PARAMETER NAME="NUM_MI" VALUE="1"/>
@@ -798,7 +798,7 @@
             <CONNECTION INSTANCE="ldl_dsolve_0" PORT="m_axi_gmem2_WVALID"/>
           </CONNECTIONS>
         </PORT>
-        <PORT CLKFREQUENCY="99999001" DIR="I" NAME="aclk" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
+        <PORT CLKFREQUENCY="199998001" DIR="I" NAME="aclk" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
           <CONNECTIONS>
             <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="pl_clk0"/>
           </CONNECTIONS>
@@ -815,9 +815,9 @@
           <PARAMETER NAME="ARUSER_WIDTH" VALUE="0"/>
           <PARAMETER NAME="AWUSER_WIDTH" VALUE="0"/>
           <PARAMETER NAME="BUSER_WIDTH" VALUE="0"/>
-          <PARAMETER NAME="CLK_DOMAIN" VALUE="design_1_zynq_ultra_ps_e_0_0_pl_clk0"/>
+          <PARAMETER NAME="CLK_DOMAIN" VALUE="perfectdesignnew_zynq_ultra_ps_e_0_0_pl_clk0"/>
           <PARAMETER NAME="DATA_WIDTH" VALUE="128"/>
-          <PARAMETER NAME="FREQ_HZ" VALUE="99999001"/>
+          <PARAMETER NAME="FREQ_HZ" VALUE="199998001"/>
           <PARAMETER NAME="HAS_BRESP" VALUE="1"/>
           <PARAMETER NAME="HAS_BURST" VALUE="0"/>
           <PARAMETER NAME="HAS_CACHE" VALUE="1"/>
@@ -870,9 +870,9 @@
           <PARAMETER NAME="ARUSER_WIDTH" VALUE="0"/>
           <PARAMETER NAME="AWUSER_WIDTH" VALUE="0"/>
           <PARAMETER NAME="BUSER_WIDTH" VALUE="0"/>
-          <PARAMETER NAME="CLK_DOMAIN" VALUE="design_1_zynq_ultra_ps_e_0_0_pl_clk0"/>
+          <PARAMETER NAME="CLK_DOMAIN" VALUE="perfectdesignnew_zynq_ultra_ps_e_0_0_pl_clk0"/>
           <PARAMETER NAME="DATA_WIDTH" VALUE="128"/>
-          <PARAMETER NAME="FREQ_HZ" VALUE="99999001"/>
+          <PARAMETER NAME="FREQ_HZ" VALUE="199998001"/>
           <PARAMETER NAME="HAS_BRESP" VALUE="1"/>
           <PARAMETER NAME="HAS_BURST" VALUE="1"/>
           <PARAMETER NAME="HAS_CACHE" VALUE="1"/>
@@ -920,7 +920,7 @@
         </BUSINTERFACE>
       </BUSINTERFACES>
     </MODULE>
-    <MODULE COREREVISION="2113592139" FULLNAME="/ldl_dsolve_0" HWVERSION="1.0" INSTANCE="ldl_dsolve_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="ldl_dsolve" VLNV="xilinx.com:hls:ldl_dsolve:1.0">
+    <MODULE COREREVISION="2113609252" FULLNAME="/ldl_dsolve_0" HWVERSION="1.0" INSTANCE="ldl_dsolve_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="ldl_dsolve" VLNV="xilinx.com:hls:ldl_dsolve:1.0">
       <DOCUMENTS/>
       <ADDRESSBLOCKS>
         <ADDRESSBLOCK ACCESS="read-write" INTERFACE="s_axi_control" NAME="Reg" RANGE="65536" USAGE="register">
@@ -1135,9 +1135,29 @@
                 </FIELD>
               </FIELDS>
             </REGISTER>
+            <REGISTER NAME="n">
+              <PROPERTY NAME="DESCRIPTION" VALUE="Data signal of n"/>
+              <PROPERTY NAME="ADDRESS_OFFSET" VALUE="16"/>
+              <PROPERTY NAME="SIZE" VALUE="32"/>
+              <PROPERTY NAME="ACCESS" VALUE="write-only"/>
+              <PROPERTY NAME="IS_ENABLED" VALUE="true"/>
+              <PROPERTY NAME="RESET_VALUE" VALUE="0"/>
+              <FIELDS>
+                <FIELD NAME="n">
+                  <PROPERTY NAME="DESCRIPTION" VALUE="Bit 31 to 0 of n"/>
+                  <PROPERTY NAME="ADDRESS_OFFSET" VALUE="0"/>
+                  <PROPERTY NAME="ACCESS" VALUE="write-only"/>
+                  <PROPERTY NAME="MODIFIED_READ_VALUES" VALUE=""/>
+                  <PROPERTY NAME="WRITE_CONSTRAINT" VALUE="0"/>
+                  <PROPERTY NAME="READ_ACTION" VALUE=""/>
+                  <PROPERTY NAME="BIT_OFFSET" VALUE="0"/>
+                  <PROPERTY NAME="BIT_WIDTH" VALUE="32"/>
+                </FIELD>
+              </FIELDS>
+            </REGISTER>
             <REGISTER NAME="X_1">
               <PROPERTY NAME="DESCRIPTION" VALUE="Data signal of X"/>
-              <PROPERTY NAME="ADDRESS_OFFSET" VALUE="16"/>
+              <PROPERTY NAME="ADDRESS_OFFSET" VALUE="24"/>
               <PROPERTY NAME="SIZE" VALUE="32"/>
               <PROPERTY NAME="ACCESS" VALUE="write-only"/>
               <PROPERTY NAME="IS_ENABLED" VALUE="true"/>
@@ -1157,7 +1177,7 @@
             </REGISTER>
             <REGISTER NAME="X_2">
               <PROPERTY NAME="DESCRIPTION" VALUE="Data signal of X"/>
-              <PROPERTY NAME="ADDRESS_OFFSET" VALUE="20"/>
+              <PROPERTY NAME="ADDRESS_OFFSET" VALUE="28"/>
               <PROPERTY NAME="SIZE" VALUE="32"/>
               <PROPERTY NAME="ACCESS" VALUE="write-only"/>
               <PROPERTY NAME="IS_ENABLED" VALUE="true"/>
@@ -1177,7 +1197,7 @@
             </REGISTER>
             <REGISTER NAME="D_1">
               <PROPERTY NAME="DESCRIPTION" VALUE="Data signal of D"/>
-              <PROPERTY NAME="ADDRESS_OFFSET" VALUE="28"/>
+              <PROPERTY NAME="ADDRESS_OFFSET" VALUE="36"/>
               <PROPERTY NAME="SIZE" VALUE="32"/>
               <PROPERTY NAME="ACCESS" VALUE="write-only"/>
               <PROPERTY NAME="IS_ENABLED" VALUE="true"/>
@@ -1197,7 +1217,7 @@
             </REGISTER>
             <REGISTER NAME="D_2">
               <PROPERTY NAME="DESCRIPTION" VALUE="Data signal of D"/>
-              <PROPERTY NAME="ADDRESS_OFFSET" VALUE="32"/>
+              <PROPERTY NAME="ADDRESS_OFFSET" VALUE="40"/>
               <PROPERTY NAME="SIZE" VALUE="32"/>
               <PROPERTY NAME="ACCESS" VALUE="write-only"/>
               <PROPERTY NAME="IS_ENABLED" VALUE="true"/>
@@ -1217,7 +1237,7 @@
             </REGISTER>
             <REGISTER NAME="out_r_1">
               <PROPERTY NAME="DESCRIPTION" VALUE="Data signal of out_r"/>
-              <PROPERTY NAME="ADDRESS_OFFSET" VALUE="40"/>
+              <PROPERTY NAME="ADDRESS_OFFSET" VALUE="48"/>
               <PROPERTY NAME="SIZE" VALUE="32"/>
               <PROPERTY NAME="ACCESS" VALUE="write-only"/>
               <PROPERTY NAME="IS_ENABLED" VALUE="true"/>
@@ -1237,7 +1257,7 @@
             </REGISTER>
             <REGISTER NAME="out_r_2">
               <PROPERTY NAME="DESCRIPTION" VALUE="Data signal of out_r"/>
-              <PROPERTY NAME="ADDRESS_OFFSET" VALUE="44"/>
+              <PROPERTY NAME="ADDRESS_OFFSET" VALUE="52"/>
               <PROPERTY NAME="SIZE" VALUE="32"/>
               <PROPERTY NAME="ACCESS" VALUE="write-only"/>
               <PROPERTY NAME="IS_ENABLED" VALUE="true"/>
@@ -1300,18 +1320,18 @@
         <PARAMETER NAME="C_M_AXI_GMEM1_ENABLE_USER_PORTS" VALUE="false"/>
         <PARAMETER NAME="C_M_AXI_GMEM2_ENABLE_ID_PORTS" VALUE="true"/>
         <PARAMETER NAME="C_M_AXI_GMEM2_ENABLE_USER_PORTS" VALUE="false"/>
-        <PARAMETER NAME="Component_Name" VALUE="design_1_ldl_dsolve_0_0"/>
-        <PARAMETER NAME="II" VALUE="x"/>
+        <PARAMETER NAME="Component_Name" VALUE="perfectdesignnew_ldl_dsolve_0_0"/>
+        <PARAMETER NAME="II" VALUE="29 ~ 1128"/>
         <PARAMETER NAME="clk_period" VALUE="10"/>
         <PARAMETER NAME="combinational" VALUE="0"/>
-        <PARAMETER NAME="latency" VALUE="49"/>
+        <PARAMETER NAME="latency" VALUE="45"/>
         <PARAMETER NAME="machine" VALUE="64"/>
         <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
         <PARAMETER NAME="C_S_AXI_CONTROL_BASEADDR" VALUE="0xA0000000"/>
         <PARAMETER NAME="C_S_AXI_CONTROL_HIGHADDR" VALUE="0xA000FFFF"/>
       </PARAMETERS>
       <PORTS>
-        <PORT CLKFREQUENCY="99999001" DIR="I" NAME="ap_clk" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
+        <PORT CLKFREQUENCY="199998001" DIR="I" NAME="ap_clk" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
           <CONNECTIONS>
             <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="pl_clk0"/>
           </CONNECTIONS>
@@ -1684,9 +1704,9 @@
           <PARAMETER NAME="ARUSER_WIDTH" VALUE="0"/>
           <PARAMETER NAME="AWUSER_WIDTH" VALUE="0"/>
           <PARAMETER NAME="BUSER_WIDTH" VALUE="0"/>
-          <PARAMETER NAME="CLK_DOMAIN" VALUE="design_1_zynq_ultra_ps_e_0_0_pl_clk0"/>
+          <PARAMETER NAME="CLK_DOMAIN" VALUE="perfectdesignnew_zynq_ultra_ps_e_0_0_pl_clk0"/>
           <PARAMETER NAME="DATA_WIDTH" VALUE="32"/>
-          <PARAMETER NAME="FREQ_HZ" VALUE="99999001"/>
+          <PARAMETER NAME="FREQ_HZ" VALUE="199998001"/>
           <PARAMETER NAME="HAS_BRESP" VALUE="1"/>
           <PARAMETER NAME="HAS_BURST" VALUE="0"/>
           <PARAMETER NAME="HAS_CACHE" VALUE="0"/>
@@ -1736,9 +1756,9 @@
           <PARAMETER NAME="ARUSER_WIDTH" VALUE="0"/>
           <PARAMETER NAME="AWUSER_WIDTH" VALUE="0"/>
           <PARAMETER NAME="BUSER_WIDTH" VALUE="0"/>
-          <PARAMETER NAME="CLK_DOMAIN" VALUE="design_1_zynq_ultra_ps_e_0_0_pl_clk0"/>
+          <PARAMETER NAME="CLK_DOMAIN" VALUE="perfectdesignnew_zynq_ultra_ps_e_0_0_pl_clk0"/>
           <PARAMETER NAME="DATA_WIDTH" VALUE="128"/>
-          <PARAMETER NAME="FREQ_HZ" VALUE="99999001"/>
+          <PARAMETER NAME="FREQ_HZ" VALUE="199998001"/>
           <PARAMETER NAME="HAS_BRESP" VALUE="1"/>
           <PARAMETER NAME="HAS_BURST" VALUE="0"/>
           <PARAMETER NAME="HAS_CACHE" VALUE="1"/>
@@ -1790,9 +1810,9 @@
           <PARAMETER NAME="ARUSER_WIDTH" VALUE="0"/>
           <PARAMETER NAME="AWUSER_WIDTH" VALUE="0"/>
           <PARAMETER NAME="BUSER_WIDTH" VALUE="0"/>
-          <PARAMETER NAME="CLK_DOMAIN" VALUE="design_1_zynq_ultra_ps_e_0_0_pl_clk0"/>
+          <PARAMETER NAME="CLK_DOMAIN" VALUE="perfectdesignnew_zynq_ultra_ps_e_0_0_pl_clk0"/>
           <PARAMETER NAME="DATA_WIDTH" VALUE="128"/>
-          <PARAMETER NAME="FREQ_HZ" VALUE="99999001"/>
+          <PARAMETER NAME="FREQ_HZ" VALUE="199998001"/>
           <PARAMETER NAME="HAS_BRESP" VALUE="1"/>
           <PARAMETER NAME="HAS_BURST" VALUE="0"/>
           <PARAMETER NAME="HAS_CACHE" VALUE="1"/>
@@ -1844,9 +1864,9 @@
           <PARAMETER NAME="ARUSER_WIDTH" VALUE="0"/>
           <PARAMETER NAME="AWUSER_WIDTH" VALUE="0"/>
           <PARAMETER NAME="BUSER_WIDTH" VALUE="0"/>
-          <PARAMETER NAME="CLK_DOMAIN" VALUE="design_1_zynq_ultra_ps_e_0_0_pl_clk0"/>
+          <PARAMETER NAME="CLK_DOMAIN" VALUE="perfectdesignnew_zynq_ultra_ps_e_0_0_pl_clk0"/>
           <PARAMETER NAME="DATA_WIDTH" VALUE="128"/>
-          <PARAMETER NAME="FREQ_HZ" VALUE="99999001"/>
+          <PARAMETER NAME="FREQ_HZ" VALUE="199998001"/>
           <PARAMETER NAME="HAS_BRESP" VALUE="1"/>
           <PARAMETER NAME="HAS_BURST" VALUE="0"/>
           <PARAMETER NAME="HAS_CACHE" VALUE="1"/>
@@ -1909,12 +1929,12 @@
         <PERIPHERAL INSTANCE="zynq_ultra_ps_e_0"/>
       </PERIPHERALS>
     </MODULE>
-    <MODULE COREREVISION="30" FULLNAME="/ps8_0_axi_periph" HWVERSION="2.1" INSTANCE="ps8_0_axi_periph" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="axi_interconnect" VLNV="xilinx.com:ip:axi_interconnect:2.1">
+    <MODULE COREREVISION="32" FULLNAME="/ps8_0_axi_periph" HWVERSION="2.1" INSTANCE="ps8_0_axi_periph" IPTYPE="BUS" IS_ENABLE="1" MODCLASS="BUS" MODTYPE="axi_interconnect" VLNV="xilinx.com:ip:axi_interconnect:2.1">
       <DOCUMENTS>
         <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=axi_interconnect;v=v2_1;d=pg059-axi-interconnect.pdf"/>
       </DOCUMENTS>
       <PARAMETERS>
-        <PARAMETER NAME="Component_Name" VALUE="design_1_ps8_0_axi_periph_2"/>
+        <PARAMETER NAME="Component_Name" VALUE="perfectdesignnew_ps8_0_axi_periph_0"/>
         <PARAMETER NAME="ENABLE_ADVANCED_OPTIONS" VALUE="0"/>
         <PARAMETER NAME="ENABLE_PROTOCOL_CHECKERS" VALUE="0"/>
         <PARAMETER NAME="M00_HAS_DATA_FIFO" VALUE="0"/>
@@ -2397,11 +2417,6 @@
             <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="maxigp0_arsize"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" NAME="S00_AXI_aruser" SIGIS="undef" SIGNAME="ps8_0_axi_periph_S00_AXI_aruser">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="maxigp0_aruser"/>
-          </CONNECTIONS>
-        </PORT>
         <PORT DIR="I" NAME="S00_AXI_arvalid" SIGIS="undef" SIGNAME="ps8_0_axi_periph_S00_AXI_arvalid">
           <CONNECTIONS>
             <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="maxigp0_arvalid"/>
@@ -2455,11 +2470,6 @@
         <PORT DIR="I" LEFT="2" NAME="S00_AXI_awsize" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_S00_AXI_awsize">
           <CONNECTIONS>
             <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="maxigp0_awsize"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" NAME="S00_AXI_awuser" SIGIS="undef" SIGNAME="ps8_0_axi_periph_S00_AXI_awuser">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="maxigp0_awuser"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="I" NAME="S00_AXI_awvalid" SIGIS="undef" SIGNAME="ps8_0_axi_periph_S00_AXI_awvalid">
@@ -2751,7 +2761,6 @@
             <PORTMAP LOGICAL="ARQOS" PHYSICAL="S00_AXI_arqos"/>
             <PORTMAP LOGICAL="ARREADY" PHYSICAL="S00_AXI_arready"/>
             <PORTMAP LOGICAL="ARSIZE" PHYSICAL="S00_AXI_arsize"/>
-            <PORTMAP LOGICAL="ARUSER" PHYSICAL="S00_AXI_aruser"/>
             <PORTMAP LOGICAL="ARVALID" PHYSICAL="S00_AXI_arvalid"/>
             <PORTMAP LOGICAL="AWADDR" PHYSICAL="S00_AXI_awaddr"/>
             <PORTMAP LOGICAL="AWBURST" PHYSICAL="S00_AXI_awburst"/>
@@ -2763,7 +2772,6 @@
             <PORTMAP LOGICAL="AWQOS" PHYSICAL="S00_AXI_awqos"/>
             <PORTMAP LOGICAL="AWREADY" PHYSICAL="S00_AXI_awready"/>
             <PORTMAP LOGICAL="AWSIZE" PHYSICAL="S00_AXI_awsize"/>
-            <PORTMAP LOGICAL="AWUSER" PHYSICAL="S00_AXI_awuser"/>
             <PORTMAP LOGICAL="AWVALID" PHYSICAL="S00_AXI_awvalid"/>
             <PORTMAP LOGICAL="BID" PHYSICAL="S00_AXI_bid"/>
             <PORTMAP LOGICAL="BREADY" PHYSICAL="S00_AXI_bready"/>
@@ -2846,7 +2854,7 @@
         </BUSINTERFACE>
       </BUSINTERFACES>
     </MODULE>
-    <MODULE COREREVISION="14" FULLNAME="/rst_ps8_0_99M" HWVERSION="5.0" INSTANCE="rst_ps8_0_99M" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="proc_sys_reset" VLNV="xilinx.com:ip:proc_sys_reset:5.0">
+    <MODULE COREREVISION="15" FULLNAME="/rst_ps8_0_99M" HWVERSION="5.0" INSTANCE="rst_ps8_0_99M" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="proc_sys_reset" VLNV="xilinx.com:ip:proc_sys_reset:5.0">
       <DOCUMENTS>
         <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=proc_sys_reset;v=v5_0;d=pg164-proc-sys-reset.pdf"/>
       </DOCUMENTS>
@@ -2860,7 +2868,7 @@
         <PARAMETER NAME="C_NUM_INTERCONNECT_ARESETN" VALUE="1"/>
         <PARAMETER NAME="C_NUM_PERP_ARESETN" VALUE="1"/>
         <PARAMETER NAME="C_NUM_PERP_RST" VALUE="1"/>
-        <PARAMETER NAME="Component_Name" VALUE="design_1_rst_ps8_0_99M_2"/>
+        <PARAMETER NAME="Component_Name" VALUE="perfectdesignnew_rst_ps8_0_99M_0"/>
         <PARAMETER NAME="RESET_BOARD_INTERFACE" VALUE="Custom"/>
         <PARAMETER NAME="USE_BOARD_FLOW" VALUE="false"/>
         <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
@@ -2880,17 +2888,17 @@
         <PORT DIR="O" LEFT="0" NAME="peripheral_aresetn" POLARITY="ACTIVE_LOW" RIGHT="0" SIGIS="rst" SIGNAME="rst_ps8_0_99M_peripheral_aresetn">
           <CONNECTIONS>
             <CONNECTION INSTANCE="ps8_0_axi_periph" PORT="S00_ARESETN"/>
-            <CONNECTION INSTANCE="ldl_dsolve_0" PORT="ap_rst_n"/>
             <CONNECTION INSTANCE="ps8_0_axi_periph" PORT="M00_ARESETN"/>
             <CONNECTION INSTANCE="ps8_0_axi_periph" PORT="ARESETN"/>
+            <CONNECTION INSTANCE="ps8_0_axi_periph" PORT="S01_ARESETN"/>
             <CONNECTION INSTANCE="axi_smc" PORT="aresetn"/>
             <CONNECTION INSTANCE="axi_smc_1" PORT="aresetn"/>
             <CONNECTION INSTANCE="axi_smc_2" PORT="aresetn"/>
-            <CONNECTION INSTANCE="ps8_0_axi_periph" PORT="S01_ARESETN"/>
+            <CONNECTION INSTANCE="ldl_dsolve_0" PORT="ap_rst_n"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" LEFT="0" NAME="peripheral_reset" POLARITY="ACTIVE_HIGH" RIGHT="0" SIGIS="rst"/>
-        <PORT CLKFREQUENCY="99999001" DIR="I" NAME="slowest_sync_clk" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
+        <PORT CLKFREQUENCY="199998001" DIR="I" NAME="slowest_sync_clk" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
           <CONNECTIONS>
             <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="pl_clk0"/>
           </CONNECTIONS>
@@ -2898,7 +2906,7 @@
       </PORTS>
       <BUSINTERFACES/>
     </MODULE>
-    <MODULE CONFIGURABLE="TRUE" COREREVISION="1" FULLNAME="/zynq_ultra_ps_e_0" HWVERSION="3.5" INSTANCE="zynq_ultra_ps_e_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" IS_PL="FALSE" MODTYPE="zynq_ultra_ps_e" VLNV="xilinx.com:ip:zynq_ultra_ps_e:3.5">
+    <MODULE CONFIGURABLE="TRUE" COREREVISION="3" FULLNAME="/zynq_ultra_ps_e_0" HWVERSION="3.5" INSTANCE="zynq_ultra_ps_e_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" IS_PL="FALSE" MODTYPE="zynq_ultra_ps_e" VLNV="xilinx.com:ip:zynq_ultra_ps_e:3.5">
       <DOCUMENTS>
         <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=zynq_ultra_ps_e;v=v3_5;d=pg201-zynq-ultrascale-plus-processing-system.pdf"/>
       </DOCUMENTS>
@@ -2952,7 +2960,7 @@
         <PARAMETER NAME="CAN0_BOARD_INTERFACE" VALUE="custom"/>
         <PARAMETER NAME="CAN1_BOARD_INTERFACE" VALUE="custom"/>
         <PARAMETER NAME="CSU_BOARD_INTERFACE" VALUE="custom"/>
-        <PARAMETER NAME="Component_Name" VALUE="design_1_zynq_ultra_ps_e_0_0"/>
+        <PARAMETER NAME="Component_Name" VALUE="perfectdesignnew_zynq_ultra_ps_e_0_0"/>
         <PARAMETER NAME="DP_BOARD_INTERFACE" VALUE="custom"/>
         <PARAMETER NAME="GEM0_BOARD_INTERFACE" VALUE="custom"/>
         <PARAMETER NAME="GEM1_BOARD_INTERFACE" VALUE="custom"/>
@@ -3711,10 +3719,10 @@
         <PARAMETER NAME="PSU__CRL_APB__PCAP_CTRL__DIVISOR0" VALUE="5"/>
         <PARAMETER NAME="PSU__CRL_APB__PCAP_CTRL__FREQMHZ" VALUE="200"/>
         <PARAMETER NAME="PSU__CRL_APB__PCAP_CTRL__SRCSEL" VALUE="IOPLL"/>
-        <PARAMETER NAME="PSU__CRL_APB__PL0_REF_CTRL__ACT_FREQMHZ" VALUE="99.999001"/>
-        <PARAMETER NAME="PSU__CRL_APB__PL0_REF_CTRL__DIVISOR0" VALUE="10"/>
+        <PARAMETER NAME="PSU__CRL_APB__PL0_REF_CTRL__ACT_FREQMHZ" VALUE="199.998001"/>
+        <PARAMETER NAME="PSU__CRL_APB__PL0_REF_CTRL__DIVISOR0" VALUE="5"/>
         <PARAMETER NAME="PSU__CRL_APB__PL0_REF_CTRL__DIVISOR1" VALUE="1"/>
-        <PARAMETER NAME="PSU__CRL_APB__PL0_REF_CTRL__FREQMHZ" VALUE="100"/>
+        <PARAMETER NAME="PSU__CRL_APB__PL0_REF_CTRL__FREQMHZ" VALUE="200"/>
         <PARAMETER NAME="PSU__CRL_APB__PL0_REF_CTRL__SRCSEL" VALUE="IOPLL"/>
         <PARAMETER NAME="PSU__CRL_APB__PL1_REF_CTRL__ACT_FREQMHZ" VALUE="99.999001"/>
         <PARAMETER NAME="PSU__CRL_APB__PL1_REF_CTRL__DIVISOR0" VALUE="10"/>
@@ -4197,9 +4205,9 @@
         <PARAMETER NAME="PSU__MAXIGP1__DATA_WIDTH" VALUE="128"/>
         <PARAMETER NAME="PSU__MAXIGP2__DATA_WIDTH" VALUE="32"/>
         <PARAMETER NAME="PSU__M_AXI_GP0_SUPPORTS_NARROW_BURST" VALUE="1"/>
-        <PARAMETER NAME="PSU__M_AXI_GP0__FREQMHZ" VALUE="99.999001"/>
+        <PARAMETER NAME="PSU__M_AXI_GP0__FREQMHZ" VALUE="199.998001"/>
         <PARAMETER NAME="PSU__M_AXI_GP1_SUPPORTS_NARROW_BURST" VALUE="1"/>
-        <PARAMETER NAME="PSU__M_AXI_GP1__FREQMHZ" VALUE="99.999001"/>
+        <PARAMETER NAME="PSU__M_AXI_GP1__FREQMHZ" VALUE="199.998001"/>
         <PARAMETER NAME="PSU__M_AXI_GP2_SUPPORTS_NARROW_BURST" VALUE="1"/>
         <PARAMETER NAME="PSU__M_AXI_GP2__FREQMHZ" VALUE="10"/>
         <PARAMETER NAME="PSU__NAND_COHERENCY" VALUE="0"/>
@@ -4493,9 +4501,9 @@
         <PARAMETER NAME="PSU__SWDT1__RESET__IO" VALUE="&lt;Select>"/>
         <PARAMETER NAME="PSU__S_AXI_GP0__FREQMHZ" VALUE="10"/>
         <PARAMETER NAME="PSU__S_AXI_GP1__FREQMHZ" VALUE="10"/>
-        <PARAMETER NAME="PSU__S_AXI_GP2__FREQMHZ" VALUE="99.999001"/>
-        <PARAMETER NAME="PSU__S_AXI_GP3__FREQMHZ" VALUE="99.999001"/>
-        <PARAMETER NAME="PSU__S_AXI_GP4__FREQMHZ" VALUE="99.999001"/>
+        <PARAMETER NAME="PSU__S_AXI_GP2__FREQMHZ" VALUE="199.998001"/>
+        <PARAMETER NAME="PSU__S_AXI_GP3__FREQMHZ" VALUE="199.998001"/>
+        <PARAMETER NAME="PSU__S_AXI_GP4__FREQMHZ" VALUE="199.998001"/>
         <PARAMETER NAME="PSU__S_AXI_GP5__FREQMHZ" VALUE="10"/>
         <PARAMETER NAME="PSU__S_AXI_GP6__FREQMHZ" VALUE="10"/>
         <PARAMETER NAME="PSU__TCM0A__POWER__ON" VALUE="1"/>
@@ -4694,11 +4702,6 @@
             <CONNECTION INSTANCE="ps8_0_axi_periph" PORT="S00_AXI_arsize"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="O" LEFT="15" NAME="maxigp0_aruser" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_S00_AXI_aruser">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="ps8_0_axi_periph" PORT="S00_AXI_aruser"/>
-          </CONNECTIONS>
-        </PORT>
         <PORT DIR="O" NAME="maxigp0_arvalid" SIGIS="undef" SIGNAME="ps8_0_axi_periph_S00_AXI_arvalid">
           <CONNECTIONS>
             <CONNECTION INSTANCE="ps8_0_axi_periph" PORT="S00_AXI_arvalid"/>
@@ -4752,11 +4755,6 @@
         <PORT DIR="O" LEFT="2" NAME="maxigp0_awsize" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_S00_AXI_awsize">
           <CONNECTIONS>
             <CONNECTION INSTANCE="ps8_0_axi_periph" PORT="S00_AXI_awsize"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" LEFT="15" NAME="maxigp0_awuser" RIGHT="0" SIGIS="undef" SIGNAME="ps8_0_axi_periph_S00_AXI_awuser">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="ps8_0_axi_periph" PORT="S00_AXI_awuser"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" NAME="maxigp0_awvalid" SIGIS="undef" SIGNAME="ps8_0_axi_periph_S00_AXI_awvalid">
@@ -5024,32 +5022,32 @@
             <CONNECTION INSTANCE="ps8_0_axi_periph" PORT="S01_AXI_wvalid"/>
           </CONNECTIONS>
         </PORT>
-        <PORT CLKFREQUENCY="99999001" DIR="I" NAME="maxihpm0_fpd_aclk" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
+        <PORT CLKFREQUENCY="199998001" DIR="I" NAME="maxihpm0_fpd_aclk" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
           <CONNECTIONS>
             <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="pl_clk0"/>
           </CONNECTIONS>
         </PORT>
-        <PORT CLKFREQUENCY="99999001" DIR="I" NAME="maxihpm1_fpd_aclk" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
+        <PORT CLKFREQUENCY="199998001" DIR="I" NAME="maxihpm1_fpd_aclk" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
           <CONNECTIONS>
             <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="pl_clk0"/>
           </CONNECTIONS>
         </PORT>
-        <PORT CLKFREQUENCY="99999001" DIR="O" NAME="pl_clk0" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
+        <PORT CLKFREQUENCY="199998001" DIR="O" NAME="pl_clk0" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
           <CONNECTIONS>
             <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="maxihpm0_fpd_aclk"/>
             <CONNECTION INSTANCE="ps8_0_axi_periph" PORT="S00_ACLK"/>
             <CONNECTION INSTANCE="rst_ps8_0_99M" PORT="slowest_sync_clk"/>
-            <CONNECTION INSTANCE="ldl_dsolve_0" PORT="ap_clk"/>
             <CONNECTION INSTANCE="ps8_0_axi_periph" PORT="M00_ACLK"/>
             <CONNECTION INSTANCE="ps8_0_axi_periph" PORT="ACLK"/>
+            <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="maxihpm1_fpd_aclk"/>
+            <CONNECTION INSTANCE="ps8_0_axi_periph" PORT="S01_ACLK"/>
             <CONNECTION INSTANCE="axi_smc" PORT="aclk"/>
             <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="saxihp0_fpd_aclk"/>
             <CONNECTION INSTANCE="axi_smc_1" PORT="aclk"/>
             <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="saxihp1_fpd_aclk"/>
             <CONNECTION INSTANCE="axi_smc_2" PORT="aclk"/>
             <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="saxihp2_fpd_aclk"/>
-            <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="maxihpm1_fpd_aclk"/>
-            <CONNECTION INSTANCE="ps8_0_axi_periph" PORT="S01_ACLK"/>
+            <CONNECTION INSTANCE="ldl_dsolve_0" PORT="ap_clk"/>
           </CONNECTIONS>
         </PORT>
         <PORT CLKFREQUENCY="99999001" DIR="O" NAME="pl_clk1" SIGIS="clk"/>
@@ -5299,17 +5297,17 @@
             <CONNECTION INSTANCE="axi_smc_2" PORT="M00_AXI_wvalid"/>
           </CONNECTIONS>
         </PORT>
-        <PORT CLKFREQUENCY="99999001" DIR="I" NAME="saxihp0_fpd_aclk" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
+        <PORT CLKFREQUENCY="199998001" DIR="I" NAME="saxihp0_fpd_aclk" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
           <CONNECTIONS>
             <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="pl_clk0"/>
           </CONNECTIONS>
         </PORT>
-        <PORT CLKFREQUENCY="99999001" DIR="I" NAME="saxihp1_fpd_aclk" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
+        <PORT CLKFREQUENCY="199998001" DIR="I" NAME="saxihp1_fpd_aclk" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
           <CONNECTIONS>
             <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="pl_clk0"/>
           </CONNECTIONS>
         </PORT>
-        <PORT CLKFREQUENCY="99999001" DIR="I" NAME="saxihp2_fpd_aclk" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
+        <PORT CLKFREQUENCY="199998001" DIR="I" NAME="saxihp2_fpd_aclk" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
           <CONNECTIONS>
             <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="pl_clk0"/>
           </CONNECTIONS>
@@ -5321,9 +5319,9 @@
           <PARAMETER NAME="ARUSER_WIDTH" VALUE="16"/>
           <PARAMETER NAME="AWUSER_WIDTH" VALUE="16"/>
           <PARAMETER NAME="BUSER_WIDTH" VALUE="0"/>
-          <PARAMETER NAME="CLK_DOMAIN" VALUE="design_1_zynq_ultra_ps_e_0_0_pl_clk0"/>
+          <PARAMETER NAME="CLK_DOMAIN" VALUE="perfectdesignnew_zynq_ultra_ps_e_0_0_pl_clk0"/>
           <PARAMETER NAME="DATA_WIDTH" VALUE="128"/>
-          <PARAMETER NAME="FREQ_HZ" VALUE="99999001"/>
+          <PARAMETER NAME="FREQ_HZ" VALUE="199998001"/>
           <PARAMETER NAME="HAS_BRESP" VALUE="1"/>
           <PARAMETER NAME="HAS_BURST" VALUE="1"/>
           <PARAMETER NAME="HAS_CACHE" VALUE="1"/>
@@ -5359,7 +5357,6 @@
             <PORTMAP LOGICAL="ARQOS" PHYSICAL="maxigp0_arqos"/>
             <PORTMAP LOGICAL="ARREADY" PHYSICAL="maxigp0_arready"/>
             <PORTMAP LOGICAL="ARSIZE" PHYSICAL="maxigp0_arsize"/>
-            <PORTMAP LOGICAL="ARUSER" PHYSICAL="maxigp0_aruser"/>
             <PORTMAP LOGICAL="ARVALID" PHYSICAL="maxigp0_arvalid"/>
             <PORTMAP LOGICAL="AWADDR" PHYSICAL="maxigp0_awaddr"/>
             <PORTMAP LOGICAL="AWBURST" PHYSICAL="maxigp0_awburst"/>
@@ -5371,7 +5368,6 @@
             <PORTMAP LOGICAL="AWQOS" PHYSICAL="maxigp0_awqos"/>
             <PORTMAP LOGICAL="AWREADY" PHYSICAL="maxigp0_awready"/>
             <PORTMAP LOGICAL="AWSIZE" PHYSICAL="maxigp0_awsize"/>
-            <PORTMAP LOGICAL="AWUSER" PHYSICAL="maxigp0_awuser"/>
             <PORTMAP LOGICAL="AWVALID" PHYSICAL="maxigp0_awvalid"/>
             <PORTMAP LOGICAL="BID" PHYSICAL="maxigp0_bid"/>
             <PORTMAP LOGICAL="BREADY" PHYSICAL="maxigp0_bready"/>
@@ -5395,9 +5391,9 @@
           <PARAMETER NAME="ARUSER_WIDTH" VALUE="16"/>
           <PARAMETER NAME="AWUSER_WIDTH" VALUE="16"/>
           <PARAMETER NAME="BUSER_WIDTH" VALUE="0"/>
-          <PARAMETER NAME="CLK_DOMAIN" VALUE="design_1_zynq_ultra_ps_e_0_0_pl_clk0"/>
+          <PARAMETER NAME="CLK_DOMAIN" VALUE="perfectdesignnew_zynq_ultra_ps_e_0_0_pl_clk0"/>
           <PARAMETER NAME="DATA_WIDTH" VALUE="128"/>
-          <PARAMETER NAME="FREQ_HZ" VALUE="99999001"/>
+          <PARAMETER NAME="FREQ_HZ" VALUE="199998001"/>
           <PARAMETER NAME="HAS_BRESP" VALUE="1"/>
           <PARAMETER NAME="HAS_BURST" VALUE="1"/>
           <PARAMETER NAME="HAS_CACHE" VALUE="1"/>
@@ -5467,9 +5463,9 @@
           <PARAMETER NAME="ARUSER_WIDTH" VALUE="1"/>
           <PARAMETER NAME="AWUSER_WIDTH" VALUE="1"/>
           <PARAMETER NAME="BUSER_WIDTH" VALUE="0"/>
-          <PARAMETER NAME="CLK_DOMAIN" VALUE="design_1_zynq_ultra_ps_e_0_0_pl_clk0"/>
+          <PARAMETER NAME="CLK_DOMAIN" VALUE="perfectdesignnew_zynq_ultra_ps_e_0_0_pl_clk0"/>
           <PARAMETER NAME="DATA_WIDTH" VALUE="128"/>
-          <PARAMETER NAME="FREQ_HZ" VALUE="99999001"/>
+          <PARAMETER NAME="FREQ_HZ" VALUE="199998001"/>
           <PARAMETER NAME="HAS_BRESP" VALUE="1"/>
           <PARAMETER NAME="HAS_BURST" VALUE="1"/>
           <PARAMETER NAME="HAS_CACHE" VALUE="1"/>
@@ -5517,9 +5513,9 @@
           <PARAMETER NAME="ARUSER_WIDTH" VALUE="1"/>
           <PARAMETER NAME="AWUSER_WIDTH" VALUE="1"/>
           <PARAMETER NAME="BUSER_WIDTH" VALUE="0"/>
-          <PARAMETER NAME="CLK_DOMAIN" VALUE="design_1_zynq_ultra_ps_e_0_0_pl_clk0"/>
+          <PARAMETER NAME="CLK_DOMAIN" VALUE="perfectdesignnew_zynq_ultra_ps_e_0_0_pl_clk0"/>
           <PARAMETER NAME="DATA_WIDTH" VALUE="128"/>
-          <PARAMETER NAME="FREQ_HZ" VALUE="99999001"/>
+          <PARAMETER NAME="FREQ_HZ" VALUE="199998001"/>
           <PARAMETER NAME="HAS_BRESP" VALUE="1"/>
           <PARAMETER NAME="HAS_BURST" VALUE="1"/>
           <PARAMETER NAME="HAS_CACHE" VALUE="1"/>
@@ -5567,9 +5563,9 @@
           <PARAMETER NAME="ARUSER_WIDTH" VALUE="1"/>
           <PARAMETER NAME="AWUSER_WIDTH" VALUE="1"/>
           <PARAMETER NAME="BUSER_WIDTH" VALUE="0"/>
-          <PARAMETER NAME="CLK_DOMAIN" VALUE="design_1_zynq_ultra_ps_e_0_0_pl_clk0"/>
+          <PARAMETER NAME="CLK_DOMAIN" VALUE="perfectdesignnew_zynq_ultra_ps_e_0_0_pl_clk0"/>
           <PARAMETER NAME="DATA_WIDTH" VALUE="128"/>
-          <PARAMETER NAME="FREQ_HZ" VALUE="99999001"/>
+          <PARAMETER NAME="FREQ_HZ" VALUE="199998001"/>
           <PARAMETER NAME="HAS_BRESP" VALUE="1"/>
           <PARAMETER NAME="HAS_BURST" VALUE="1"/>
           <PARAMETER NAME="HAS_CACHE" VALUE="1"/>

@@ -1,4 +1,4 @@
-# Accelerating Solf-Driving Satellite for Deep Space
+# Accelerating Self-Driving Satellite for Deep Space
 
 ## Info & Description
 This project will focus on profiling the application, designing an accelerator for the most compute intensive part to pave the way of novel generation of deep space satellites.  

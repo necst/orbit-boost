@@ -7,7 +7,7 @@
 #include "experimental/xrt_device.h"
 #include "experimental/xrt_kernel.h"
 
-#define GUIDO_BASE_ADDR 0xC0000000
+#define GUIDO_BASE_ADDR 0xA0000000
 #define XLDL_DSOLVE_CONTROL_ADDR_AP_CTRL    0x00
 #define XLDL_DSOLVE_CONTROL_ADDR_GIE        0x04
 #define XLDL_DSOLVE_CONTROL_ADDR_IER        0x08

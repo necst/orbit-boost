@@ -37,7 +37,7 @@ git clone https://github.com/necst/orbit-boost.git
 ```
 Then, move into the repository with 
 ```shell
-cd guido-fpga
+cd orbit-boost
 ```
 
 ### Step 2 - Generate the .bit and .hwh files
